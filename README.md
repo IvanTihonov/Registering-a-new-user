@@ -1,3 +1,18 @@
+Разделение пользователей React:
+1. Неправильное использование - 
+применяют в React element.querySelector, element.addEventListener и др.
+
+2. Правильно плохо
+Не используются element.querySelector, element.addEventListener и др.
+Полностью используются JSX
+
+3. Правильно хорошо
+Разделение кода на подкомпоненты (декомпозиция)
+Использование хуков React по назначению (useRef, useCallback, useContext ...)
+Правильное использование useState, useEffect
+Структурированный и читаемый код, качественный
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
